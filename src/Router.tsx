@@ -47,4 +47,4 @@ export const router = createBrowserRouter([
       element: <p>404 Hiba - Nincs ilyen oldal</p>
     }
   ]}
-])
+], { basename: '/m/testorebe' })
